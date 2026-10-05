@@ -175,13 +175,13 @@ En todos los casos, se reutilizaron los métodos existentes para evitar la **dup
 
  Los datos de los usuarios se conservan en formato **JSON** dentro del archivo:
 
-``` python
+```
 datos/usuarios.json
 ```
 
  Para respetar la arquitectura modular, la interfaz ubicada en:
 
-``` python
+```
 ui/main_view.py
 ```
 
@@ -275,7 +275,7 @@ assets/
 
  Desde la raíz del proyecto, donde se encuentra el archivo `main.py`, ejecuta:
 
-``` python
+``` bash
 python main.py
 ```
 
@@ -291,7 +291,7 @@ datos/usuarios.json
 
  Por ejemplo:
 
-```
+``` json
 Usuario: admin
 Clave: 123
 ```
